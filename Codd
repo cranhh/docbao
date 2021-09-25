@@ -54,7 +54,7 @@ echo $luc."Nhập Sign Video:$trang";
 $sig_video = trim(fgets(STDIN));
 echo $luc."Nhập Data Video:$trang";
 $data_video = trim(fgets(STDIN));
-echo $luc."Thời Gian Làm 1 Nhiệm Vụ:$trang";
+echo $luc."Thời Gian Làm 1 Nhiệm Vụ (>=30):$trang";
 $delay = trim(fgets(STDIN));
 function post($host,$tsm,$data){
   $url = $host;
